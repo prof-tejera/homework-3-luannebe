@@ -1,3 +1,30 @@
+:root {
+  --blue: rgb(2, 117, 216);
+  --green: rgb(92, 184, 92);
+  --red: rgb(217, 83, 79);
+  --yellow: rgb(240, 173, 78);
+  --ltblue: rgb(91, 192, 222);
+  --ltgray: rgb(247, 247, 247);
+}
+.blue { background-color: var(--blue); }
+.green { background-color: var(--green); }
+.red { background-color: var(--red); } 
+.yellow { background-color: var(--yellow); } 
+.disabled { background-color: var(--ltgray) !important;}
+
+.bgcolor-blue {
+  background-color: var(--blue);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;   
+}
+
 .App-component {
   border: 1px solid;
   margin: 10px;
